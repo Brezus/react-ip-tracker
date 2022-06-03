@@ -16,7 +16,7 @@ export default function InputDisplay(props) {
           name="ipTrackr"
           placeholder="Search for any IP address or domain"
         />
-        <button type="submit">
+        <button onClick={props.handleClick} type="submit">
           <img className="arrow" src="/images/icon-arrow.svg" alt="arrow" />
         </button>
       </div>

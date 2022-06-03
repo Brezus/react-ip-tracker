@@ -117,6 +117,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 1em 4em;
+  z-index: 1000;
 }
 .ip-info {
   text-align: center;
